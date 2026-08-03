@@ -3,6 +3,8 @@
 Windward Strategy, the advisory division of Windward Line. Operations and
 technology, by engagement: the plan, the sequence, the follow-through.
 
+![The chart room: operations and technology, by engagement](docs/readme-hero.png)
+
 Static site, no build step: two HTML pages (the chart room and `/schedule`,
 which embeds the division's Koalendar booking page), one stylesheet,
 self-hosted EB Garamond, the division signal flag (Golf — "I require a
