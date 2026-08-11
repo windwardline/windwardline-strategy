@@ -7,6 +7,11 @@ updates:
       day: monday
       time: "09:30"
       timezone: America/New_York
+    # The soak that makes dependabot-auto-merge.yml safe: nothing reaches a PR
+    # until it has been on the registry a week, so an auto-merged patch or
+    # minor is never a same-day release. fleet-conformance.sh reads this
+    # number, not merely the file's presence. Security updates are exempt from
+    # cooldown by design and gate on the same required checks.
     cooldown:
       default-days: 7
     groups:
