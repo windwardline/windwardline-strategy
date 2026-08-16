@@ -4,19 +4,19 @@
 
 ## The division
 
-Third division site, after Labs and Capital. Class ADVISORY, status
-By Engagement. The apex register line is the brief: "Operations and
-technology: the plan, the sequence, the follow-through." Owner chose
-**named engagement shapes** over an abstract counsel page.
+Third division site. Class ADVISORY, status By Engagement. The apex
+register line is the brief: "Operations and technology: the plan, the
+sequence, the follow-through." Owner chose **named engagement shapes**
+over an abstract counsel page.
 
 ## The flag — Golf, "I require a pilot"
 
 Six vertical stripes, gold `#c9a25e` and navy `#202e4d`, gold at the hoist.
 A master flying Golf asks for a pilot: someone who knows these waters, comes
 aboard for the passage, and goes ashore when the ship is through — an
-engagement. The fleet sentence closes: Labs flies P (about to sail), Capital
-flies S (engines astern), Strategy flies G (take the pilot aboard). First
-division flag to wear the house gold.
+engagement. The fleet sentence closes: Labs flies P (about to sail),
+Strategy flies G (take the pilot aboard). First division flag to wear the
+house gold.
 
 **Flag law applies**: the stripe fields never change, on any site, in any
 theme. Only the mounting stroke flips — navy `#202e4d` by day, gold
