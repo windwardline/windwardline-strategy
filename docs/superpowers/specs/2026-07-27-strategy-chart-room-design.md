@@ -52,9 +52,10 @@ four-block pattern (root, media-dark, data-theme light/dark).
 The lamp (Light/Dark/System, stored choice pre-paint); every link opens a
 new tab (mailto exempt); favicon standard (svg + BMP ico + apple touch,
 light rendition on the paper plate, well-known path n/a for static —
-apple-touch-icon.png at root); private repo; `.vercelignore` keeps docs/
-out of the deployment; CSP all-self via vercel.json; CI validates HTML and
-vercel.json.
+apple-touch-icon.png at root); public repo, with fonts/ under the SIL OFL
+1.1 (fonts/OFL.txt) and everything else under the proprietary LICENSE;
+`.vercelignore` keeps docs/ out of the deployment; CSP all-self via
+vercel.json; CI validates HTML and vercel.json.
 
 ## Launch day (standing decision)
 
