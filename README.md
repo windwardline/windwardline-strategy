@@ -13,3 +13,7 @@ spec: [docs/superpowers/specs/2026-07-27-strategy-chart-room-design.md](docs/sup
 
 Deployed on Vercel; DNS on Cloudflare. Pushes to `main` deploy to production.
 Security headers are set in [vercel.json](vercel.json).
+
+The site is proprietary; see [LICENSE](LICENSE). The fonts are not. EB
+Garamond ships under the SIL Open Font License 1.1, and its notice travels
+with the files in [fonts/OFL.txt](fonts/OFL.txt).

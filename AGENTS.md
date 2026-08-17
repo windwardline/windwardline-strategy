@@ -17,3 +17,4 @@ CI is html-validate on `index.html` plus the `vercel.json` parse. `schedule.html
 - The Golf flag ("I require a pilot") is six alternating bars with hardcoded fills (`#c9a25e` / `#202e4d`) repeated across six `<rect>` elements in both HTML files; only `--gf-stroke` is themed.
 - Four `:root` blocks — an accent change touches all four. Never commit `.env.local` (`vercel link` drops an OIDC token there).
 - `cleanUrls: true` maps `/schedule` → `schedule.html`. `.vercelignore` excludes `docs/`.
+- The repo is public and `fonts/` is third-party. `fonts/OFL.txt` carries EB Garamond's upstream copyright line and the verbatim SIL OFL 1.1 text; LICENSE carves `fonts/` out of the proprietary notice. Adding or replacing a font updates both, with the copyright line read from the font binary's name table, never from memory.
