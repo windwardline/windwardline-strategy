@@ -1,6 +1,6 @@
 # Windward Strategy — operating contract
 
-Operating contract for AI work in this repo; the global `~/AGENTS.md` still applies. Work here follows the CONVERGE cycle and delivery discipline in `FLEET.md` (windwardline/windwardline) — find → refute → verify yourself → fix → re-rank → test → update → report, and the delivery rules under it. The advisory division chart room — operations and technology by engagement. Live at strategy.windwardline.com. Zero-dependency static HTML.
+Operating contract for AI work in this repo; the global `~/AGENTS.md` still applies. Work here follows the CONVERGE cycle and delivery discipline in `FLEET.md` (windwardline/windwardline) — find → refute → verify yourself → fix → re-rank → test → update → report; enumerate the gates rather than counting them, stage explicit paths, validate before mutating, preserve standing claims, derive populations rather than curating them, and never let a harness failure read as the subject refusing. `FLEET.md` governs where it and this summary differ. The advisory division chart room — operations and technology by engagement. Live at strategy.windwardline.com. Zero-dependency static HTML.
 
 ## Commands
 
