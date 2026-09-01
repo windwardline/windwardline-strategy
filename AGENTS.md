@@ -18,3 +18,17 @@ CI (`ci.yml`, on pushes to and pull requests against `main`) is html-validate on
 - Four `:root` blocks — an accent change touches all four. Never commit `.env.local` (`vercel link` drops an OIDC token there).
 - `cleanUrls: true` maps `/schedule` → `schedule.html`. `.vercelignore` excludes `docs/`.
 - The repo is public and `fonts/` is third-party. `fonts/OFL.txt` carries EB Garamond's upstream copyright line and the verbatim SIL OFL 1.1 text; LICENSE carves `fonts/` out of the proprietary notice. Adding or replacing a font updates both, with the copyright line read from the font binary's name table, never from memory.
+
+## Declared gates
+
+The machine-readable gate set. `scripts/fleet-conformance.sh` requires this block
+and the workspace done-gate hook runs every `gate:` line before a session may
+finish, so what runs is what is written here rather than what a hook guessed from
+`package.json`. Each key states its own boundary: `gate:` runs at session end and
+must be local and quick; `release:` runs before a pull request and may be slow;
+`cadence:` is scheduled or needs the live machine and is run by neither.
+
+```fleet-gates
+gate: npx --yes html-validate@9 index.html
+gate: node -e "JSON.parse(require('fs').readFileSync('vercel.json','utf8'))"
+```
